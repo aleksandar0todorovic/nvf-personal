@@ -2,7 +2,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     # nixpkgs.url = "github:NixOS/nixpkgs/master";
-    nvf.url = "github:aleksandar0todorovic/nvf?ref=add-csharp-formatting";
+    nvf.url = "github:notashelf/nvf";
   };
 
   outputs = {
