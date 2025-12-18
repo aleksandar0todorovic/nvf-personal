@@ -136,7 +136,7 @@
 
                 csharp = {
                   enable = true;
-                  lsp.servers = ["omnisharp"];
+                  # lsp.servers = ["omnisharp"];
                 };
               };
             };
