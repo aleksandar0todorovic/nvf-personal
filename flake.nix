@@ -131,12 +131,12 @@
 
                 nix = {
                   enable = true;
-                  lsp.server = "nixd";
+                  lsp.servers = ["nixd"];
                 };
 
                 csharp = {
                   enable = true;
-                  lsp.server = "omnisharp";
+                  lsp.servers = ["omnisharp"];
                 };
               };
             };
